@@ -1,0 +1,73 @@
+body{
+	font-size: 15px;
+	font-family: Menlo;
+	vertical-align: baseline;
+}
+
+.header{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 2px grey solid;
+	margin-bottom: 40px;
+	font-size: 300%;
+	font-family: Menlo;
+	text-align: center;
+	line-height: 40px;
+}
+
+.intro{
+	float: right;
+	font-family: Menlo;
+}
+
+.score{
+	margin-bottom: 40px;
+	font-size: 200%;
+	font-family: Menlo;
+}
+
+.start{
+	text-align: center;
+	font-family: Menlo;
+	font-size: 30%;
+}
+
+.scene{
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 400px;
+	background-color: #888888;
+}
+
+.snode{
+	border-radius: 8px;
+	position: relative;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: #888888;
+}
+
+.pnode{
+	position: fixed;
+	background-image: url("poison.jpg");
+	width: 20px;
+	height: 20px;
+}
+
+.fnode{
+	background-image: url("food.jpg");
+	position: relative;
+	width: 20px;
+	height: 20px;
+}
+
+.footer{
+	margin-top: 40px;
+	border-top: 2px grey solid;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: grey;
+}
